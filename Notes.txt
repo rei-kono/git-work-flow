@@ -1,0 +1,25 @@
+Create repository (git init)
+Create file (touch)
+After changes to file, stage it (git add)
+After staging it, commit changes (git commit)
+
+Create branches (in git flow):
+feature branch
+hot fix branch
+release branch
+support branch
+
+After finishing feature branches, merge with previous branch
+After merging, delete the feature branch
+
+Staging server
+	- Different developers put together their features branch into the develop branch
+Production server
+
+After creating and finishing your feature branch, push that into github or other remote server.
+	- So that other's can review it
+	- You want the feature branch to be reviewed before it's merged into the develop branch
+
+Reviewer: Pull feature branch in github or other repository so that you can review and comment on it. 
+
+Once review is complete, and quality passed, then merge it into develop branch
