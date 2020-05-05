@@ -1,0 +1,18 @@
+Create repository (git init)
+Create file (touch)
+After changes to file, stage it (git add)
+After staging it, commit changes (git commit)
+
+Create branches (in git flow):
+feature branch
+hot fix branch
+release branch
+support branch
+
+After finishing feature branches, merge with previous branch
+After merging, delete the feature branch
+
+Staging server
+	- Different developers put together their features branch into the develop branch
+Production server
+	- 
